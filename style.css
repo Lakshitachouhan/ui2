@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 16%;
+    background-color:#E5D7D1;
+    padding-top: 50px;
+    padding-inline: 50px;
+    
+}
+.box{
+    width: 25%;
+    background-color: #D1EDC0   ;
+    border-radius: 10px;
+}
+#img{
+width: 300px;
+}
+.box p{
+    font-size: 20px;
+    text-align: center;
+}
+.box h2{
+    font-size: 40px;
+    text-align: center;
+}
+.box button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-left: 50px;
+    /* margin-top: ; */
+    margin-block: 30px;
+
+}
+.box2{
+width: 27%;
+background-color: #FAF4F1;
+/* padding-inline: 20px; */
+padding-block: 10px;
+border-radius: 20px;
+}
+.hi{
+    display: flex;
+    align-items: center;
+
+}
+#girl{
+    width: 15%;
+    background-color:#DEDEE1;
+    border-radius: 50%;
+}
+.hi i{
+    display: flex ;
+    padding-left: 150px;
+    font-size: 28px;
+}
+.hi p{
+    padding-left: 10px;
+}
+.star{
+    display: flex;
+    gap: 5px;
+    padding-block: 10px;
+    align-items: center;
+}
+.star i{
+    color: #FFBB0B;
+}
+.star p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search {
+    color: grey;
+    font-size: 18px;
+    height: 65px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding-inline: 20px;
+    justify-content: space-between;
+    background-color:white;
+    margin-block: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.last p{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+.images{
+    display: flex;
+    padding-top: 20px;
+
+}
+.circle img{
+    width: 70px;
+}
+.active{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+/* .active p{
+    margin-bottom:-33px ;
+} */
+.num{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: grey;
+    padding-bottom: 5px;
+}
+.deadline{
+    display: flex;
+    padding-top: 20px;
+    gap: 5px;
+}
+.deadline i{
+    color:black;
+}
+.deadline p{
+    color: #545454;
+    font-weight: 600;
+}
+.blog{
+    border: 1px solid rgb(210, 206, 206);
+    padding-inline: 10px;
+    border-radius: 10px;
+    padding-block: 10px;
+    margin-top: 10px;
+
+}
+.card{
+    width: 100%;
+    background-color: white;
+    padding-inline: 20px;
+    border-radius:  20px;
+
+}
+.smallbox{
+    padding-inline: 20px;
+}
+
+.box3{
+    width: 27%;
+    background-color: #D1EDC0;
+}
+.message{
+    background-color: #FFFFFF;
+}
+.icon3{
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    padding-block: 50px;
+    padding-inline: 30px;
+}
+.message{
+    border-radius: 30px;
+}
+.message hr{
+    width: 80%;
+    height: 7px;
+    background-color: black;
+    margin-inline: 30px; 
+}
+.message h1{
+    padding: 20px;
+    
+}
+.daily{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+#four{
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+.smallcards{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-block: 30px;
+}
+.smallcards1{
+    background-color: #FFE7AB;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+/* .smallcards1 img{
+    margin-top: 10px;
+} */
+.message h3{
+    font-size: 20px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+}
+#para{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    gap: 100px;
+    /* padding-block: 20px; */
+}
+.circle2{
+    padding-block: 20px;
+}
+.box{
+    margin-top: 100px;
+    border-radius: 20px;
+   
+}
+.box3{
+    margin-top: 100px;
+    border-radius: 20px;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-inline: 0px;
+    }
+    .box{
+       width: 80%;
+        height: auto;  
+    }
+    .box2{
+         width: 80%;
+        height: auto;
+    }
+    .box3{
+         width:80%;
+        height: auto;
+    }
+}
